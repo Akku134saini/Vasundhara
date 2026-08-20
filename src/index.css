@@ -1,0 +1,17 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  margin: 0;
+  font-family: 'Lato', sans-serif;
+  background: linear-gradient(135deg, #fdf8e6 0%, #fff1f2 100%);
+}
+
+* {
+  box-sizing: border-box;
+}
